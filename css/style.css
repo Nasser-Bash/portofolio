@@ -3,7 +3,7 @@ body{
     font-family: 'Oleo Script', cursive;
 }
 #page-loader {
-  background-image: linear-gradient(to right top, #2c7557, #358876, #459b95, #5dadb2, #79bfcd);
+  background-image: linear-gradient(to right top, #090B32, #101344, #131544, #11167c, #17193b);
   position: fixed;
   left: 0;
   top: 0;
@@ -90,7 +90,7 @@ body{
   }
   100% {
     stroke-dasharray: 500px;
-    stroke: #2c75578c;
+    stroke: #090b3294;
   }
 }
  
@@ -109,7 +109,7 @@ body{
     margin-left: -150px;
 }
 .main-nav .btn-toggler, .secondry-nav .btn-toggler{
-background-color: #2C7557 ;
+background-color: #090B32 ;
 padding: 15px;
 width: 100%;
 border: none;
@@ -157,7 +157,7 @@ border-radius: 0;}
     background-color: rgba(226, 226, 226, 0.486);
 }
 .active a{
-    color: #2c7557 !important;
+    color: #090B32 !important;
 }
 .secondry-nav-active{
     margin-left: 0;
@@ -165,7 +165,7 @@ border-radius: 0;}
 .social-icon a{
     text-decoration: none ;
     font-size: 1.2em;
-    color: #2c7557  !important;
+    color: #090B32  !important;
 }
 /*main-container*/
 .my-container{
@@ -209,9 +209,7 @@ width:calc(100% - 91px);
   
 .according-active{
     flex: 0 0 auto;
-    width: 50%;
-  
-
+    width: 66.5%;
 }
 .according-active .according-body{
     display:block;
@@ -273,7 +271,8 @@ width:calc(100% - 91px);
     
  }
  .left{
-  background-image: linear-gradient(to right top, #2c7557, #358876, #459b95, #5dadb2, #79bfcd);
+  background-image: linear-gradient(to right top, #090B32, #101344, #131544, #11167c, #17193b);
+
   
  }
 
@@ -291,7 +290,7 @@ width:calc(100% - 91px);
 }
  }
 .right h1,h3{
-  background-image: linear-gradient(to right top, #2c7557, #358876, #459b95, #5dadb2, #79bfcd);
+ background-image: linear-gradient(to right top, #090B32, #101344, #131544, #11167c, #17193b);
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -299,7 +298,7 @@ width:calc(100% - 91px);
  
 
  .portofolio-nav ul .active {
-  background-color: #2c7557;
+  background-color: #090B32;
   color: white;
   transition: all 0.3s ease-in;
 }
@@ -311,7 +310,7 @@ width:calc(100% - 91px);
   text-align: left !important;
 }
 .portofolio-nav ul li:not(.active):hover {
-  color: #2c7557;
+  color: #090B32;
   transition: all 0.3s ease-in;
 }
 
@@ -344,7 +343,7 @@ width:calc(100% - 91px);
 .our-work .box::before {
   content: attr(data-work);
   position: absolute;
-  background-color: #2c75578c;
+  background-color: #090b3288;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   display: flex;
@@ -391,7 +390,7 @@ width:calc(100% - 91px);
 }
 
 .skills svg circle {
-  stroke: #2c7557;
+  stroke: #090B32;
   stroke-width: 5px;
   fill: none;
   stroke-dasharray:var(--stroke) ;
